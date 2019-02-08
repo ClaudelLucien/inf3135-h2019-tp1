@@ -1,12 +1,29 @@
 
 #include <stdio.h>
-
+#include <string.h>
 
 
 void recherche(int a, int b);
 //note : argc compte les arguments
 //le premier est toujours l'executable
 int main(int argc, char *argv[]) {
+
+int i;
+if(argc%2==0){
+printf("Mauvais nombre d'arguments\n");
+return 1;
+}
+for (i=0; i < argc; i++)
+
+    {
+
+	if(strcmp(argv[i],"-c")==0 && strcmp(argv[i+1],"code")==0){
+
+	printf("hellyeah\n");
+	}
+    }
+
+
 
 FILE* fichier = NULL;
 
