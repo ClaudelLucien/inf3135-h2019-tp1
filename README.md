@@ -27,4 +27,5 @@
    ## Statut
 
    Le programme répond actuellement a la tache qui lui est demandée, seulement le nombre de commande possible pour y faire appel n'est pas aussi grand que dans le sujet.
+   Pendant sont execution, il y a la création d'un fichier code.txt et d'un fichier résultat.txt.
 
