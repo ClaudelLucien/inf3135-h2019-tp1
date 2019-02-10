@@ -14,8 +14,9 @@ test1:
 
 clean:
 	
-	rm data.zip.1
-	
+	rm data.zip
+	rm code.txt
+	rm resultat.txt
 data:
 	wget  https://www.github.com/guyfrancoeur/INF3135_H2019/raw/master/tp1/data.zip
 	unzip data
