@@ -2,27 +2,25 @@
 
    ## Description
 
-   <description du projet en quelques phrases>
-   <mentionner le contexte (cours, sigle, université, etc.)>
+   <Ce programme cherche les nombres parfait entre deux limites que l'ont lui entre en paramètres.>
+   <Cours de Conception et Maintenance de logiciels>
 
    ## Auteur
 
-   <prénom et nom> (<code permanent>)
+   <Lucien CLAUDEL> (<CLAL12049707>)
 
    ## Fonctionnement
 
-   <expliquez brièvement comment faire fonctionner votre projet, en inscrivant
-   au moins deux exemples d'utilisation (commande lancée et résultat affiché)>
+   <Pour faire fonctionner le programme, il faut lancer la commande: /tp1 -c CP -i data.txt -o sortie.txt>
 
    ## Contenu du projet
 
-   <décrivez brièvement chacun des fichiers contenus dans le projet (une phrase
-   par fichier)>
+   <Dans ce projet on trouve le fichier tp1.c qui est le code source du  programme, on trouve également un fichier makefile qui permet d'executer une séquence d'instructions a la suite et enfin il est possible de trouver un fichier tp1.o qui peut etre supprimé avec la commande make clean. >
 
    ## Références
 
-   <citez vos sources ici>
+   <Afin de mener a bien ce projet, il m'a fallut faire des recherches sur internet et le site openclassroom m'a fortement aidé.>
 
    ## Statut
 
-   <indiquez si le projet est complété ou s'il y a des bogues>
+   <A l'heure actuelle, le projet ne lit pas encore le code permanent.>
