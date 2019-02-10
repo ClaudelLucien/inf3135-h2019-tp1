@@ -20,6 +20,11 @@
       
 
         if (strcmp(argv[i], "-c") == 0 && strlen(argv[i + 1]) == 12) {
+
+	FILE * code = NULL;
+	code = fopen("code.txt","w+");
+	fprintf(code,"%s\n",argv[i+1]);
+	fclose(code);
           for (j = 0; j < argc; j++) {
             if ((strcmp(argv[j], "-i") == 0 || strcmp(argv[j],"<")==0)  && strcmp(argv[j + 1], "data.txt") == 0) {
 
@@ -28,7 +33,7 @@
 
                   FILE * fichier = NULL;
 
-                  fichier = fopen("data.txt", "r+");
+                  fichier = fopen("./data/data.txt", "r+");
                   int tableau[2] = {
                     0
                   };
@@ -49,7 +54,7 @@
                     printf("Impossible d'ouvrir le fichier test.txt");
                     return 5;
                   }
-                  if (borneInf > borneSup) {
+                  if (borneInf <0 || borneSup<0 ) {
                     return 4;
                   }
 
